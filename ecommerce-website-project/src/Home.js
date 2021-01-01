@@ -50,13 +50,6 @@ function Home() {
             rating={5}
             image="https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg"
         />
-        <Product
-            id="12321341"
-            title="Ecosprin Av 75mg Strip Of 15 Capsules"
-            price="50"
-            rating={5}
-            image="https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg"
-        />
       </div>
       <div className="home__row">
         <Product
