@@ -1,4 +1,4 @@
-Technologies used - 
+Technologies used -  
 
     1. React JS for frontend 
     2. React Router 
@@ -6,4 +6,5 @@ Technologies used -
     4. Firebase(User authentication + database)
     5. hosting - Firebase
     
-    Link - https://ecommerce-website-projec-2a56d.web.app/
+ Link - https://ecommerce-website-projec-2a56d.web.app/
+ 
