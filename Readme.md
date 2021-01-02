@@ -1,7 +1,9 @@
 Technologies used - 
 
-    1. Context API (React)
-    2. React JS for frontend
-    3. Firebase(User authentication + database)
-    4. hosting - Firebase
-    5. React Router
+    1. React JS for frontend 
+    2. React Router 
+    3. Context API (React)
+    4. Firebase(User authentication + database)
+    5. hosting - Firebase
+    
+    Link - https://ecommerce-website-projec-2a56d.web.app/
