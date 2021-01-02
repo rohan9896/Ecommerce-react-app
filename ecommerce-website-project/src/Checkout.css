@@ -1,4 +1,14 @@
+.checkout__title {
+    padding: 10px;
+}
+
 .checkout__img {
     width: 100%;
     margin-bottom: 10px;
+}
+
+.checkout__belowimgContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
 }

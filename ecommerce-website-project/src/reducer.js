@@ -3,7 +3,7 @@ export const initialState = {
     {
       id: "12321341",
       title: "Ecosprin Av 75mg Strip Of 15 Capsules",
-      price: "50",
+      price: 50,
       rating: 5,
       image:
         "https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg",
@@ -11,7 +11,7 @@ export const initialState = {
     {
         id: "12321341",
         title: "Ecosprin Av 75mg Strip Of 15 Capsules",
-        price: "50",
+        price: 50,
         rating: 5,
         image:
           "https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg",
@@ -19,7 +19,7 @@ export const initialState = {
       {
         id: "12321341",
         title: "Ecosprin Av 75mg Strip Of 15 Capsules",
-        price: "50",
+        price: 50,
         rating: 5,
         image:
           "https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg",
@@ -27,6 +27,10 @@ export const initialState = {
   ],
   user: null,
 };
+
+export const getBasketTotal = (basket) => (
+  basket?.reduce((amount, item) => item.price + amount, 0)
+)
 
 const reducer = (state, action) => {
   console.log(action);
