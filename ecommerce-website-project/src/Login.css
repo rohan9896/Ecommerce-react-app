@@ -1,0 +1,53 @@
+.login {
+    background-color: #006699;
+    color: white;
+    display: flex;   
+    flex-direction: column;
+    max-width: fit-content;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -250px;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.login__logoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.login__signinHeading {
+    display: flex;
+    justify-content: center;
+}
+
+.login__logo {
+    width: 150px;
+    object-fit: contain;
+}
+
+.login__container {
+    padding: 1rem;
+}
+
+.login__form {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.login__form > input {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.login__form > button {
+    background-color: orange;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}

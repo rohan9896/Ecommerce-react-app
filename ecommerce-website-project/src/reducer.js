@@ -1,30 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      id: "12321341",
-      title: "Ecosprin Av 75mg Strip Of 15 Capsules",
-      price: 50,
-      rating: 5,
-      image:
-        "https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg",
-    },
-    {
-        id: "12321341",
-        title: "Ecosprin Av 75mg Strip Of 15 Capsules",
-        price: 50,
-        rating: 5,
-        image:
-          "https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg",
-      },
-      {
-        id: "12321341",
-        title: "Ecosprin Av 75mg Strip Of 15 Capsules",
-        price: 50,
-        rating: 5,
-        image:
-          "https://cdn01.pharmeasy.in/dam/products/064422/ecosprin-av-75mg-strip-of-15-capsules-box-front-1-1607600154.jpg",
-      },
-  ],
+  basket: [],
   user: null,
 };
 
@@ -35,6 +10,11 @@ export const getBasketTotal = (basket) => (
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      }
     case "ADD_TO_BASKET":
       //LOgic for adding item to basket
       return {

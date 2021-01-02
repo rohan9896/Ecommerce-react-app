@@ -18,7 +18,7 @@ function Checkout() {
             <div className="checkout__title">
               <h2>Your shopping basket is empty</h2>
               <p>
-                You have no items in your basket.🙄 To buy one click on Add to cart
+                You have no items in your basket. To buy one click on Add to cart
                 button🙃
               </p>
             </div>
